@@ -1,422 +1,484 @@
-<a id="readme-top"></a>
-# Awesome 💎 Nano Banana Pro Prompts ✨
+[Last updated on 2025.11.25]
+# Awesome Nano Banana Pro 🍌
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-<a href="https://github.com/ZeroLu/awesome-nanobanana-pro/stargazers">
-  <img src="https://img.shields.io/github/stars/ZeroLu/awesome-nanobanana-pro?style=social" alt="GitHub stars">
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![GitHub stars](https://img.shields.io/github/stars/YourUsername/awesome-nano-banana-pro?style=social)](https://github.com/YourUsername/awesome-nano-banana-pro/stargazers)
+
+> A curated collection of the **best Nano Banana prompts**, image generation styles, and resources for advanced AI visual experiments.
+
+This repository focuses on **high-fidelity image prompts** sourced from X (Twitter), WeChat, Replicate, and top prompt engineers. Whether you are looking for **photorealistic portraits**, **stylized aesthetics**, or complex creative experiments, you will find the most effective inputs here to unlock the full potential of the model.
+
+## 📖 Table of Contents
+
+1. [Photorealism & Aesthetics](#1-photorealism--aesthetics)
+2. [Creative Experiments](#2-creative-experiments)
+3. [Education & Knowledge](#3-education--knowledge)
+4. [E-commerce & Virtual Studio](#4-e-commerce--virtual-studio)
+5. [Workplace & Productivity](#5-workplace--productivity)
+6. [Photo Editing & Restoration](#6-photo-editing--restoration)
+7. [Interior Design](#7-interior-design)
+8. [Social Media & Marketing](#8-social-media--marketing)
+9. [Daily Life & Translation](#9-daily-life--translation)
+10. [Social Networking & Avatars](#10-social-networking--avatars)
+11. [Resources](#11-resources)
+12. [Contributing](#12-contributing)
+
+---
+
+## 1. Photorealism & Aesthetics
+
+Optimize your visual output with these **high-fidelity prompts**. These are designed to utilize the model's ability to render complex lighting, textures, and specific eras.
+
+### 1.1. Hyper-Realistic Crowd Composition
+*Handling complex compositions with multiple famous faces and specific lighting.*
+<img width="500" alt="Celebrity Crowd" src="https://github.com/user-attachments/assets/3a056a8d-904e-4b3e-b0d2-b5122758b7f5" />
+
+**Prompt:**
+```text
+Create a hyper-realistic, ultra-sharp, full-color large-format image featuring a massive group of celebrities from different eras, all standing together in a single wide cinematic frame. The image must look like a perfectly photographed editorial cover with impeccable lighting, lifelike skin texture, micro-details of hair, pores, reflections, and fabric fibers.
+
+GENERAL STYLE & MOOD: Photorealistic, 8k, shallow depth of field, soft natural fill light + strong golden rim light. High dynamic range, calibrated color grading. Skin tones perfectly accurate. Crisp fabric detail with individual threads visible. Balanced composition, slightly wide-angle lens (35mm), center-weighted. All celebrities interacting naturally, smiling, posing, or conversing. Minimal background noise, but with enough world-building to feel real.
+
+THE ENVIRONMENT: A luxurious open-air rooftop terrace at sunset overlooking a modern city skyline. Elements include: Warm golden light wrapping around silhouettes. Polished marble.
+```
+*Source: [@SebJefferies](https://x.com/SebJefferies/status/1991531687147360728)*
+
+### 1.2. 2000s Mirror Selfie
+*A structured JSON prompt to generate an authentic early-2000s aesthetic with flash photography and nostalgic elements.*
+<img width="300" height="400" alt="Image" src="https://github.com/user-attachments/assets/b71755dc-ff33-4872-8161-3f5066e0ccb6" />
+
+**Prompt:**
+```json
+Create a 2000s Mirror Selfie of yourself using Gemini Nano Banana.
+
+{
+  "subject": {
+    "description": "A young woman taking a mirror selfie with very long voluminous dark waves and soft wispy bangs",
+    "age": "young adult",
+    "expression": "confident and slightly playful",
+    "hair": {
+      "color": "dark",
+      "style": "very long, voluminous waves with soft wispy bangs"
+    },
+    "clothing": {
+      "top": {
+        "type": "fitted cropped t-shirt",
+        "color": "cream white",
+        "details": "features a large cute anime-style cat face graphic with big blue eyes, whiskers, and a small pink mouth"
+      }
+    },
+    "face": {
+      "preserve_original": true,
+      "makeup": "natural glam makeup with soft pink dewy blush and glossy red pouty lips"
+    }
+  },
+  "accessories": {
+    "earrings": {
+      "type": "gold geometric hoop earrings"
+    },
+    "jewelry": {
+      "waistchain": "silver waistchain"
+    },
+    "device": {
+      "type": "smartphone",
+      "details": "patterned case"
+    }
+  },
+  "photography": {
+    "camera_style": "early-2000s digital camera aesthetic",
+    "lighting": "harsh super-flash with bright blown-out highlights but subject still visible",
+    "angle": "mirror selfie",
+    "shot_type": "tight selfie composition",
+    "texture": "subtle grain, retro highlights, V6 realism, crisp details, soft shadows"
+  },
+  "background": {
+    "setting": "nostalgic early-2000s bedroom",
+    "wall_color": "pastel tones",
+    "elements": [
+      "chunky wooden dresser",
+      "CD player",
+      "posters of 2000s pop icons",
+      "hanging beaded door curtain",
+      "cluttered vanity with lip glosses"
+    ],
+    "atmosphere": "authentic 2000s nostalgic vibe",
+    "lighting": "retro"
+  }
+}
+```
+*Source: [@ZaraIrahh](https://x.com/ZaraIrahh/status/1991681614368436468?s=20)*
+
+### 1.3. Victoria's Secret Style Photoshoot
+*Great for creating high-glamour, backstage-style fashion photography with intricate details.*
+<img width="300" height="400" alt="Image" src="https://github.com/user-attachments/assets/963c0a46-cf86-4604-8782-524b94afc51d" />
+
+**Prompt:**
+```text
+Create a glamorous photoshoot in the style of Victoria's Secret. A young woman attached in the uploaded reference image ( Keep the face of the person 100% accurate from the reference image ) stands almost sideways, slightly bent forward, during the final preparation for the show. Makeup artists apply lipstick to her (only her hands are visible in the frame). She is wearing a corset decorated with beaded embroidery and crystals with a short fluffy skirt, as well as large feather wings. The image has a "backstage" effect.
+
+The background is a darkly lit room, probably under the podium. The main emphasis is on the girl's face and the details of her costume. Emphasize the expressiveness of the gaze and the luxurious look of the outfit. The photo is lit by a flash from the camera, which emphasizes the shine of the beads and crystals on the corset, as well as the girl's shiny skin. Victoria's Secret style: sensuality, luxury, glamour. Very detailed. Important: do not change the face.
+```
+*Source: [@NanoBanana_labs](https://x.com/NanoBanana_labs/status/1991947916479762788?s=20)*
+
+### 1.4. 1990s Camera Style Portrait
+*Test the model's ability to replicate specific film textures, flash photography, and era-specific atmosphere.*
+<img width="400" height="400" alt="Image" src="https://github.com/user-attachments/assets/eca5066b-1bf6-4a97-8b81-63e9e7435050" />
+
+**Prompt:**
+```text
+Without changing her original face, create a portrait of a beautiful young woman with porcelain-white skin, captured with a 1990s-style camera using a direct front flash. Her messy dark brown hair is tied up, posing with a calm yet playful smile. She wears a modern oversized cream sweater. The background is a dark white wall covered with aesthetic magazine posters and stickers, evoking a cozy bedroom or personal room atmosphere under dim lighting. The 35mm lens flash creates a nostalgic glow.
+```
+*Source: [@kingofdairyque](https://x.com/kingofdairyque/status/1991780760030961768?s=20)*
+
+### 1.5. One-Click Business Photo (Silicon Valley Style)
+*Transforms casual photos into professional studio headshots using specific lens and lighting instructions.*
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/e41db56f-d928-400c-b21b-f8a0d53ba91b" alt="Original" />
+  <img width="385" src="https://github.com/user-attachments/assets/793ad242-7867-4709-bdc6-55021f5eb78f" alt="Generated" />
+</p>
+
+**Prompt:**
+```text
+Keep the facial features of the person in the uploaded image exactly consistent . Dress them in a professional navy blue business suit with a white shirt, similar to the reference image. Background : Place the subject against a clean, solid dark gray studio photography backdrop . The background should have a subtle gradient , slightly lighter behind the subject and darker towards the edges (vignette effect). There should be no other objects. Photography Style : Shot on a Sony A7III with an 85mm f/1.4 lens , creating a flattering portrait compression. Lighting : Use a classic three-point lighting setup . The main key light should create soft, defining shadows on the face. A subtle rim light should separate the subject's shoulders and hair from the dark background. Crucial Details : Render natural skin texture with visible pores , not an airbrushed look. Add natural catchlights to the eyes . The fabric of the suit should show a subtle wool texture.Final image should be an ultra-realistic, 8k professional headshot.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+### 1.6. Emotional Film Photography
+*Creates a cinematic, nostalgic "Kodak Portra" look while maintaining facial consistency.*
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/e41db56f-d928-400c-b21b-f8a0d53ba91b" alt="Original" />
+  <img width="385" src="https://github.com/user-attachments/assets/243d1b11-9ef0-4d4f-b308-97d67b5d3bc3" alt="Generated" />
+</p>
+
+**Prompt:**
+```text
+Keep the facial features of the person in the uploaded image exactly consistent . Style : A cinematic, emotional portrait shot on Kodak Portra 400 film . Setting : An urban street coffee shop window at Golden Hour (sunset) . Warm, nostalgic lighting hitting the side of the face. Atmosphere : Apply a subtle film grain and soft focus to create a dreamy, storytelling vibe. Action : The subject is looking slightly away from the camera, holding a coffee cup, with a relaxed, candid expression. Details : High quality, depth of field, bokeh background of city lights.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+---
+
+## 2. Creative Experiments
+
+Prompts focused on pushing the boundaries of composition, crowd generation, minimalism, and temporal consistency.
+
+### 2.1. Star Wars "Where's Waldo"
+*A complex prompt testing the model's ability to handle dense crowds and specific character recognition.*
+<img width="900" height="500" alt="Image" src="https://github.com/user-attachments/assets/439317c2-4be8-4b28-803f-36427ecca31e" />
+
+**Prompt:**
+```text
+A where is waldo image showing all Star Wars characters on Tatooine
+
+First one to pull this off. First take. Even Waldo is there.
+```
+*Source: [@creacas](https://x.com/creacas/status/1991585587548348513?s=20)*
+
+### 2.2. Aging Through the Years
+*Demonstrates temporal consistency and aging effects on a single subject.*
+<img width="400" height="650" alt="Image" src="https://github.com/user-attachments/assets/74fced67-0715-46d3-b788-d9ed9e98873b" />
+
+**Prompt:**
+```text
+"Generate the holiday photo of this person through the ages up to 80 years old"
+```
+*Source: [@dr_cintas](https://x.com/dr_cintas/status/1991888364099035581?s=20)*
+
+### 2.3. Recursive Visuals
+*Demonstrates the model's ability to handle infinite loop logic (Droste effect).*
+<img width="500" alt="Recursive Cat" src="https://github.com/user-attachments/assets/f7ef5a84-e2bf-4d4e-a93e-38a23a21b9ef" />
+
+**Prompt:**
+```text
+recursive image of an orange cat sitting in an office chair holding up an iPad. On the iPad is the same cat in the same scene holding up the same iPad. Repeated on each iPad.
+```
+*Source: [@venturetwins](https://x.com/venturetwins/status/1993174445515772086)*
+
+### 2.4. Coordinate Visualization
+*Generates a specific location and time based purely on latitude/longitude coordinates.*
+<img width="2400" height="1792" alt="Image" src="https://github.com/user-attachments/assets/8629b88a-b872-43e2-a19e-855542702ac2" />
+
+**Prompt:**
+```text
+35.6586° N, 139.7454° E at 19:00
+```
+*Source: [Replicate](https://replicate.com/)*
+
+### 2.5. Conceptual Visualization
+*Interpretative rendering of how a specific group (engineers) visualizes a landmark.*
+<img width="2400" height="1792" alt="Image" src="https://github.com/user-attachments/assets/761380fe-0850-49e2-8589-797f10b7cb8d" />
+
+**Prompt:**
+```text
+How engineers see the San Francisco Bridge
+```
+*Source: [Replicate](https://replicate.com/)*
+
+### 2.6. Literal Interpretation
+*Interprets a filename as a visual subject.*
+<img width="500" alt="Rare Steak" src="https://replicate.delivery/xezq/piAS0s9DshbqMFXJvIfw9feWaEaNsejlRifhVgMSflvZJzzaF/tmp3u2ym4f_.jpeg" />
+
+**Prompt:**
+```text
+rare.jpg
+```
+*Source: [Replicate](https://replicate.com/)*
+
+### 2.7. Multi-Subject Compositing
+*Combines multiple input portraits into a single cohesive group photo with a specific expression.*
+
+| Input References | Generated Output |
+| :--- | :--- |
+| <img width="100" src="https://replicate.delivery/pbxt/O61OKYNMCfhPTvuTf6SdRVwNlIpoKMeQPQw5WygFtvDwhWgh/guy.webp" /> <img width="100" src="https://replicate.delivery/pbxt/O61OK9ETMHHJO5m0qlCkGLhr5lcmbZ08U42C8PWLd4uszDQr/bob-ross.png" /> <br> <img width="100" src="https://replicate.delivery/pbxt/O61OKPSxpwgO83SLFGenwEcGNdEAirtw26cIfvuIxz8FeTvf/jennai.jpg" /> <img width="100" src="https://replicate.delivery/pbxt/O61OKGAI2lrcNy9I4tpUB4RPbsBUjcaxAjYjVlxRBHc2aIgK/01.webp" /> <br><img width="100" src="https://replicate.delivery/pbxt/O61S8cEIMPpMwEOkXnrroou1JkzoVFa0JJuhXHt05hBQ8AUq/replicate-prediction-50s6t1510hrma0ct2v5vj7jk2m.jpg" /> | <img width="2400" height="1792" alt="Image" src="https://github.com/user-attachments/assets/54e2a2eb-1ab4-4f2b-86a2-7a59856e615f" /> |
+
+**Prompt:**
+```text
+an office team photo, everyone making a silly face
+```
+*Source: [Replicate](https://replicate.com/)*
+
+### 2.8. Whiteboard Marker Art
+*Simulating specific drawing media (faded marker) on glass textures.*
+<img width="500" alt="Musashi Whiteboard" src="https://github.com/user-attachments/assets/b399c4d9-151b-4e15-9a40-f092f7a892b9" />
+
+**Prompt:**
+```text
+Create a photo of vagabonds musashi praying drawn on a glass whiteboard in a slightly faded green marker
+```
+*Source: [@nicdunz](https://x.com/nicdunz/status/1991556910106177849)*
+
+---
+
+## 3. Education & Knowledge
+
+### 3.1. Concept Visualization (Text to Infographic)
+*Converts textual concepts into clear, educational vector illustrations.*
+<img width="1024" height="559" alt="Image" src="https://github.com/user-attachments/assets/bfaee21b-d6da-4345-9340-e786ce07dbed" />
+
+**Prompt:**
+```text
+Create an educational infographic explaining [Photosynthesis] . Visual Elements : Illustrate the key components: The Sun, a green Plant, Water (H2O) entering roots, Carbon Dioxide (CO2) entering leaves, and Oxygen (O2) being released. Style : Clean, flat vector illustration suitable for a high school science textbook. Use arrows to show the flow of energy and matter. Labels : Label each element clearly in English .
+```
+*(Translation: 生成[光合作用]的教育信息图。视觉元素：太阳、植物、水入根、CO2入叶、O2释放。风格：适合高中课本的扁平矢量插图，用箭头显示流动。标签：用简体中文清晰标注。)*
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+---
+
+## 4. E-commerce & Virtual Studio
+
+### 4.1. Virtual Model Try-On
+*Dresses a model in a specific garment while preserving fabric texture and lighting integration.*
+<p align="center">
+  <img width="200" src="https://github.com/user-attachments/assets/4ae658d3-4fdd-44c5-a1ab-9d44d04dd792" alt="Garment" />
+  <img width="200" src="https://github.com/user-attachments/assets/8710a21d-9fc3-4d9a-bcfe-cd5fb6999bfb" alt="Model" />
+  <img width="200" src="https://github.com/user-attachments/assets/81eaafb6-901b-424d-a197-dc1bc0bfc5bf" alt="Result" />
+</p>
+
+**Prompt:**
+```text
+Using Image 1 (the garment) and Image 2 (the model), create a hyper-realistic full-body fashion photo where the model is wearing the garment. Crucial Fit Details : The [T-shirt/Jacket] must drape naturally on the model's body, conforming to their posture and creating realistic folds and wrinkles . High-Fidelity Preservation : Preserve the original fabric texture, color, and any logos from Image 1 with extreme accuracy. Seamless Integration : Blend the garment into Image 2 by perfectly matching the ambient lighting, color temperature, and shadow direction . Photography Style : Clean e-commerce lookbook, shot on a Canon EOS R5 with a 50mm f/1.8 lens for a natural, professional look.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+### 4.2. Professional Product Photography
+*Isolates products from messy backgrounds and places them in a high-end commercial studio setting.*
+<img width="1270" height="670" alt="Image" src="https://github.com/user-attachments/assets/cdfd4934-d06a-48ee-bf28-58ce16c458c1" />
+
+**Prompt:**
+```text
+Identify the main product in the uploaded photo (automatically removing any hands holding it or messy background details). Recreate it as a premium e-commerce product shot . Subject Isolation : Cleanly extract the product, completely removing any fingers, hands, or clutter . Background : Place the product on a pure white studio background (RGB 255, 255, 255) with a subtle, natural contact shadow at the base to ground it. Lighting : Use soft, commercial studio lighting to highlight the product's texture and material. Ensure even illumination with no harsh glare. Retouching : Automatically fix any lens distortion, improve sharpness, and color-correct to make the product look brand new and professional .
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+---
+
+## 5. Workplace & Productivity
+
+### 5.1. Hand-drawn Flowchart to Corporate Charts
+*Converts whiteboard sketches into clear, "McKinsey-style" vector presentations.*
+<img width="1252" height="702" alt="Image" src="https://github.com/user-attachments/assets/c59d3272-7525-4be0-94e3-8d642baaa659" />
+
+**Prompt:**
+```text
+Convert this hand-drawn whiteboard sketch into a professional corporate flowchart suitable for a business presentation. Style Guide : Use a minimalist 'McKinsey-style' aesthetic : clean lines, ample whitespace, and a sophisticated blue-and-gray color palette. Structure : Automatically align all boxes and diamonds to a strict grid . Connect them with straight, orthogonal arrows (90-degree angles only, no curvy lines). Text : Transcribe the handwritten labels into a clear, bold Sans-Serif font (like Arial or Roboto). Output : High-resolution vector-style image on a pure white background.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+### 5.2. UI Hand-drawn Sketch to High-Fidelity Prototype
+*Transforms wireframe scribbles into realistic mobile app mockups.*
+<img width="1262" height="440" alt="Image" src="https://github.com/user-attachments/assets/67690896-22f8-4abc-8e89-d4779233a7ad" />
+
+**Prompt:**
+```text
+Transform this rough wireframe sketch into a high-fidelity UI design mockups for a mobile app. Design System : Apply a modern, clean aesthetics similar to iOS 18 or Material Design 3 . Use rounded corners, soft drop shadows, and a vibrant primary color. Components : Intelligently interpret the sketch: turn scribbles into high-quality placeholder images , convert rough rectangles into proper buttons with gradients , and turn lines into realistic text blocks . Layout : Ensure perfect padding and consistent spacing between elements. Context : Place the design inside a realistic iPhone 16 frame mockups.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+### 5.3. Magazine Layout Generator
+*Perfect for visualizing articles in print format with complex typography.*
+<img width="500" alt="Magazine Layout" src="https://github.com/user-attachments/assets/5982a68e-8c7d-4c7c-a07e-2a4a0a74770d" />
+
+**Prompt:**
+```text
+Put this whole text, verbatim, into a photo of a glossy magazine article on a desk, with photos, beautiful typography design, pull quotes and brave formatting. The text: [...the unformatted article]
+```
+*Source: [@fofrAI](https://x.com/fofrAI/status/1991530971800182929)*
+
+---
+
+## 6. Photo Editing & Restoration
+
+### 6.1. Composition Rescue (Smart Outpainting)
+*Expands image ratios (e.g., to 16:9) by intelligently generating matching scenery.*
+<img width="1268" height="452" alt="Image" src="https://github.com/user-attachments/assets/cc8c4e87-fe0f-4b8a-a610-a6d55ed0294c" />
+
+**Prompt:**
+```text
+Zoom out and expand this image to a 16:9 aspect ratio (computer wallpaper size). Context Awareness : Seamlessly extend the scenery on both left and right sides. Match the original lighting, weather, and texture perfectly. Logical Completion : If there are cut-off objects (like a shoulder, a tree branch, or a building edge) on the borders, complete them naturally based on logical inference. Do not distort the original center image.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+### 6.2. Smart Crowd Removal
+*Removes unwanted people from backgrounds and fills the space with logical textures.*
+<img width="1282" height="754" alt="Image" src="https://github.com/user-attachments/assets/bade2fb0-f7d8-4435-91d4-ad0b41819c9b" />
+
+**Prompt:**
+```text
+Remove all the tourists/people in the background behind the main subject. Intelligent Fill : Replace them with realistic background elements that logically fit the scene (e.g., extend the cobblestone pavement, empty park benches, or grass textures). Consistency : Ensure no blurry artifacts or 'smudges' remain. The filled area must have the same grain, focus depth, and lighting as the rest of the photo.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+---
+
+## 7. Interior Design
+
+### 7.1. Hard Furnishing Preview (Floor Plan to Design)
+*Generates a complete design presentation board including perspective views and 3D floor plans from a simple 2D map.*
+<p align="center">
+  <img width="500" src="https://github.com/user-attachments/assets/5f5e4629-3ebe-45c6-8b90-bd4c009d2585" alt="Floor Plan" />
+  <img width="500" src="https://github.com/user-attachments/assets/cf6d0304-60b6-4262-b4a1-08571f2c491e" alt="Design Board" />
+</p>
+
+**Prompt:**
+```text
+Based on the uploaded 2D floor plan, generate a professional interior design presentation board in a single image. Layout : The final image should be a collage with one large main image at the top, and several smaller images below it. Content of Each Panel :
+1. Main Image (Top) : A wide-angle perspective view of the main living area , showing the connection between the living room and dining area.
+2. Small Image (Bottom Left) : A view of the Master Bedroom , focusing on the bed and window.
+3. Small Image (Bottom Middle) : A view of the Home Office / Study room .
+4. Small Image (Bottom Right) : A 3D top-down floor plan view showing the furniture layout. Overall Style : Apply a consistent Modern Minimalist style with warm oak wood flooring and off-white walls across ALL images. Quality : Photorealistic rendering, soft natural lighting.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+---
+
+## 8. Social Media & Marketing
+
+### 8.1. Viral Cover Image (Youtube/Douyin/TikTok)
+*Creates engaging thumbnails with text overlays, exaggerated expressions, and bright graphics.*
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/f5c790f9-f0e2-4c4d-b274-bf4bcd1c4764" alt="Source" />
+  <img width="385" src="https://github.com/user-attachments/assets/21b0d56c-a2a5-463a-9a0e-84100e9d08d8" alt="Thumbnail" />
+</p>
+
+**Prompt:**
+```text
+Design a viral video thumbnail using the person from Image 1. Face Consistency : Keep the person's facial features exactly the same as Image 1 , but change their expression to look excited and surprised . Action : Pose the person on the left side, pointing their finger towards the right side of the frame. Subject : On the right side, place a high-quality image of [a delicious avocado toast]. Graphics : Add a bold yellow arrow connecting the person's finger to the toast. Text : Overlay massive, pop-style text in the middle: '3分钟搞定!' (Done in 3 mins!). Use a thick white outline and drop shadow. Background : A blurred, bright kitchen background. High saturation and contrast.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+### 8.2. Commercial Promotional Poster
+*Designs professional sales posters with integrated text and high-quality product photography.*
+<img width="896" height="1200" alt="Image" src="https://github.com/user-attachments/assets/b65a064a-8519-4907-9497-90f00f9dba17" />
+
+**Prompt:**
+```text
+Design a professional promotional poster for a [Coffee Shop]. Composition : A cinematic close-up of a steaming cup of cappuccino on a rustic wooden table, autumn leaves in the background (cozy atmosphere). Text Integration :
+1. Main Title : 'Autumn Special' written in elegant, gold serif typography at the top.
+2. Offer : 'Buy One Get One Free' clearly displayed in a modern badge or sticker style on the side.
+3. Footer : 'Limited Time Only' in small, clean text at the bottom. Quality : Ensure all text is perfectly spelled, centered, and integrated into the image's depth of field.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+---
+
+## 9. Daily Life & Translation
+
+### 9.1. Physical Store/Travel Translation
+*Translates menus or signs while preserving the original surface texture (wall, paper, grease).*
+<p align="center">
+  <img width="400" src="https://github.com/user-attachments/assets/9920f5ad-c6bb-4375-9255-a80f8568b0a9" alt="Original" />
+  <img width="400" src="https://github.com/user-attachments/assets/46c82371-4f9d-431c-9a11-65f51862a792" alt="Translated" />
+</p>
+
+**Prompt:**
+```text
+Translate the Chinese dish names on the wall menu into English for foreign tourists. Texture Preservation : Crucial! Maintain the original aged, greasy, and textured look of the wall/paper. The new English text should look like it was written/printed on the same surface, with slight fading or wear to match. Currency : Keep the '¥' symbol and price numbers exactly as they are ; do not convert currency. Layout : align the English translations next to or replacing the Chinese characters naturally.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+### 9.2. Digital Content Localization (Comics/Memes)
+*Translates comics or memes by scrubbing text bubbles and replacing content with matching fonts.*
+<img width="1080" height="461" alt="Image" src="https://github.com/user-attachments/assets/2cb58cf3-c05f-45d0-9f04-67fd7ba00267" />
+
+**Prompt:**
+```text
+Translate the text in the speech bubbles/captions from [Japanese/English] to [Chinese]. Seamless Cleaning : Erase the original text and perfectly fill the background (e.g., the white speech bubble or the colored image background). Style Matching : Render the translated Chinese text using a casual, handwritten-style font (or bold impact font for memes) that matches the aesthetic of the original image. Fit : Ensure the text fits naturally within the bubbles without overcrowding.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+---
+
+## 10. Social Networking & Avatars
+
+### 10.1. 3D Blind Box Style Avatar
+*Converts portraits into cute, C4D-style "Pop Mart" toy characters.*
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/c6c03353-f00a-4042-ba74-726b46c67541" alt="Original" />
+  <img width="385" src="https://github.com/user-attachments/assets/da445a7e-cf15-44be-ad18-d66b8fb78ae8" alt="Blind Box" />
+</p>
+
+**Prompt:**
+```text
+Transform the person in the uploaded photo into a cute 3D Pop Mart style blind box character . Likeness : Keep key features recognizable: [hair color, glasses, hairstyle]. Style : C4D rendering, occlusion render, cute Q-version , soft studio lighting, pastel colors. Background : A simple, solid matte color background (e.g., soft blue). Detail : The character should have a smooth, plastic toy texture with a slight glossy finish. Facing forward, friendly expression.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+### 10.2. Pet Meme Creation
+*Turns pet photos into minimalist, hand-drawn funny stickers.*
+<p align="center">
+  <img width="400" src="https://github.com/user-attachments/assets/ed677fde-b407-4798-895d-e89c8534bd32" alt="Pet" />
+  <img width="400" src="https://github.com/user-attachments/assets/9fc5866a-e62e-43b9-af83-8fa5f6421d33" alt="Meme" />
+</p>
+
+**Prompt:**
+```text
+Turn this photo of my [cat/dog] into a funny hand-drawn WeChat sticker . Style : Minimalist ugly-cute line drawing (doodle style). White background. Expression : Exaggerate the animal's expression to look extremely shocked/judgemental/lazy (based on photo). Accessories : Add cute little doodles like sweat drops, question marks, or sparkles around the head. Text : Add handwritten text at the bottom: 'So Dumb'. Ensure the text style is messy and funny.
+```
+*Source: [WeChat Article](https://mp.weixin.qq.com/s/lrYNbs4rGs3KOqewoZ6aNQ)*
+
+---
+
+## 11. Resources
+
+- [Official Model Docs](https://github.com/) - Documentation for the underlying models.
+- [Prompt Engineering Guide](https://github.com/) - Learn how to structure your prompts effectively.
+
+## 12. Contributing
+
+Contributions are welcome! If you have an **awesome Nano Banana prompt**, please submit a Pull Request.
+
+1. Fork the repo.
+2. Create a new branch.
+3. Add your prompt in the correct category with the next available number.
+4. Submit PR.
+
+Please ensure you include the **Source** (link to the original creator) to give credit where it is due.
+
+## 13. Star History
+
+<a href="https://star-history.com/#YourUsername/awesome-nano-banana-pro&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=YourUsername/awesome-nano-banana-pro&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=YourUsername/awesome-nano-banana-pro&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=YourUsername/awesome-nano-banana-pro&type=Date" />
+ </picture>
 </a>
-
-🎉 Welcome to the Awesome Nano Banana Pro Prompts Collection!
-
-This is a curated collection of outstanding images and prompts generated with **Nano Banana Pro**, a powerful new image model. By showcasing its advanced capabilities, this repository serves as a hub for inspiration and a practical guide for creators looking to explore the cutting edge of AI image generation.
-
-The prompts and creative ideas are sourced from talented creators across Twitter/X 🐦 and various AI communities 🎨. May these examples spark your imagination 💡 and supercharge your creative workflow 🚀.
-
-**→ Smash that ⭐ if you find this repository useful!**
-
----
-
-<a id="table-of-contents"></a>
-## Contents
-
-- [💎 What is Nano Banana Pro](#Nano Banana Pro-intro)
-- [📖 Cases Directory](#cases-toc)
-- [🛠️ Tools & Resources](#tools-intro)
-- [💡 Prompting Tips](#prompting-tips)
-- [🤝 How to Contribute](#how-to-contribute)
-- [🙏 Acknowledgements](#acknowledgements)
-- [🌟 Star History](#star-history)
-
----
-
-<a id="Nano Banana Pro-intro"></a>
-## 💎 What is Nano Banana Pro
-
-**Nano Banana Pro** is a state-of-the-art generative model designed for high-fidelity image creation and editing. It stands out for its deep semantic understanding and remarkable ability to translate complex, nuanced prompts into stunningly accurate and creative visuals. Nano Banana Pro is not just a tool; it's a creative partner for artists, designers, and innovators.
-
-- ✨ **Semantic Diffusion Core**: Deeply understands prompts, translating complex abstract ideas into visually coherent and detailed images.
-- 🎨 **Dynamic Style Synthesis**: Can blend diverse artistic styles seamlessly or create entirely new aesthetics from simple descriptions, giving creators unparalleled control.
-- 🖼️ **Pixel-Perfect Cohesion**: Excels at maintaining consistency in style, characters, and environments across multiple generations and inpainting/outpainting tasks.
-- ⚡ **Rapid Iteration Engine**: Optimized for speed, allowing creators to quickly explore variations, experiment with ideas, and refine their vision in real-time.
-- ✍️ **Superior Text Rendering**: Unmatched capability in accurately rendering text and typography within images, perfect for posters, logos, and comics.
-
----
-
-<a id="cases-toc"></a>
-## 📖 Cases Directory
-
-*   [Case 1: Creative Ad with Doodle](#case-1)
-*   [Case 2: Glass Retexturing](#case-2)
-*   [Case 3: Perspective 3D Pop-Out Effect](#case-3)
-*   [Case 4: Chrome Emoji Pin](#case-4)
-*   [Case 5: Signature City Weather Forecast](#case-5)
-*   [Case 6: Code Style Business Card](#case-6)
-*   [Case 7: Lego Cityscape](#case-7)
-*   [Case 8: Creative Logo Shaped Bookshelf](#case-8)
-*   [Case 9: Original Pokemon Creation](#case-9)
-*   [Case 10: Futuristic Logo Trading Card](#case-10)
-*   [Case 11: Steampunk Mechanical Fish](#case-11)
-*   [Case 12: Fake Tweet Screenshot](#case-12)
-*   [Case 13: Colorful Vector Art Poster](#case-13)
-*   [Case 14: 8-Bit Pixel Icon](#case-14)
-*   [Case 15: Paper Craft Style Emoji Icon](#case-15)
-*   [Case 16: ESC Keycap Miniature Diorama](#case-16)
-*   [Case 17: Minimalist 3D Illustration](#case-17)
-*   [Case 18: Funko Pop Figure Creation](#case-18)
-*   [Case 19: PS2 Game Cover](#case-19)
-*   [Case 20: 3D Polaroid Breakout Effect](#case-20)
-
----
-
-<a id="cases"></a>
-## 🧩 Cases
-
-<a id="case-1"></a>
-### Case 1: Creative Ad with Doodle (by [@azed_ai](https://x.com/azed_ai))
-[Source Link](https://x.com/azed_ai/status/1923016036120658122)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-Bt055iW47OUqRDOh-K0gZ.png?v=1" width="450" alt="Nano Banana Pro Output for Case 1">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/azed_ai">@azed_ai</a></sub>
-
-**Prompt**
-```
-A minimalist and creative advertisement set on a clean white background. A real [Real Object] is integrated into a hand-drawn black ink doodle, using loose, playful lines. The [Doodle Concept] interacts with the object in a clever, imaginative way. Include bold black [Ad Copy] text at the top or center. Place the [Brand Logo] clearly at the bottom. The visual should be clean, fun, high-contrast, and conceptually smart.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-2"></a>
-### Case 2: Glass Retexturing (by [@egeberkina](https://x.com/egeberkina))
-[Source Link](https://x.com/egeberkina/status/1920448389960909085)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-retry-QCdSAN2IyigyHVVplpXGL.png?v=1" width="450" alt="Nano Banana Pro Output for Case 2">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/egeberkina">@egeberkina</a></sub>
-
-**Prompt**
-```
-retexture the image attached based on the JSON aesthetic below
-{
-  "style": "photorealistic 3D render",
-  "material": "glass with transparent and iridescent effects",
-  "surface_texture": "smooth, polished with subtle reflections and refractive effects",
-  "lighting": {
-    "type": "studio HDRI", "intensity": "high", "direction": "angled top-left key light and ambient fill", "accent_colors": ["blue", "green", "purple"], "reflections": true, "refractions": true, "dispersion_effects": true, "bloom": true
-  },
-  "color_scheme": {
-    "primary": "transparent with iridescent blue, green, and purple hues", "secondary": "crystal-clear with subtle chromatic shifts", "highlights": "soft, glowing accents reflecting rainbow-like effects", "rim_light": "soft reflective light around edges"
-  },
-  "background": { "color": "black", "vignette": true, "texture": "none" },
-  "post_processing": { "chromatic_aberration": true, "glow": true, "high_contrast": true, "sharp_details": true }
-}
-```
-**Reference Image Required:** An image needs to be uploaded as the base for retexturing.
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-3"></a>
-### Case 3: Perspective 3D Pop-Out Effect (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
-[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1920355982703509588)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-retry-ZwX4XJBz5BqMcvOXYcen0.png?v=1" width="450" alt="Nano Banana Pro Output for Case 3">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/ZHO_ZHO_ZHO">@ZHO_ZHO_ZHO</a></sub>
-
-**Prompt**
-```
-Hyperrealistic, top-down bird's-eye view shot, a beautiful Instagram model [Anne Hathaway], with exquisite and beautiful makeup and fashionable styling, standing on the screen of a smartphone held up by someone. The image creates a strong perspective illusion. Emphasize the 3D effect of the girl standing out from the phone. She wears black-rimmed glasses, high-street fashion, and strikes a cute, playful pose. The phone screen is treated as a dark floor, like a small stage. The scene uses strong forced perspective to show the proportional difference between the hand, the phone, and the girl. The background is clean gray, using soft indoor light, shallow depth of field, and the overall style is surrealistic photorealistic compositing. Very strong perspective.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-4"></a>
-### Case 4: Chrome Emoji Pin (by [@egeberkina](https://x.com/egeberkina))
-[Source Link](https://x.com/egeberkina/status/1919398870867440124)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-retry--QWzIYAtO7KC3HthhsjH0.png?v=1" width="450" alt="Nano Banana Pro Output for Case 4">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/egeberkina">@egeberkina</a></sub>
-
-**Prompt**
-```
-highly detailed 3D render of a single metallic {👍} emoji pin attached to a vertical product card, ultra-glossy chrome finish, smooth rounded 3D icon, stylized futuristic design, soft reflections, clean shadows, paper card has a die-cut euro hole at the top center, bold title “{Awesome}” above the pin, fun tagline “{Smash that ⭐ if you like it!}” below, soft gray background, soft studio lighting, minimal aesthetic
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-5"></a>
-### Case 5: Signature City Weather Forecast (by [@dotey](https://x.com/dotey))
-[Source Link](https://x.com/dotey/status/1917988595228438771)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-xl9zEu7r3VDXO_OZGM1a7.png?v=1" width="450" alt="Nano Banana Pro Output for Case 5">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/dotey">@dotey</a></sub>
-
-**Prompt**
-```
-Show a clear 45-degree bird’s-eye view of an isometric miniature city scene featuring Shanghai’s iconic buildings, such as the Oriental Pearl Tower and the Bund. The weather effect—cloudy—blends softly into the city, interacting gently with the architecture. Use physically based rendering (PBR) and realistic lighting. Solid color background, crisp and clean. Centered composition to highlight the precision and detail of the 3D model. Display “Shanghai Cloudy 20°C” and a cloudy weather icon at the top of the image.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-6"></a>
-### Case 6: Code Style Business Card (by [@umesh_ai](https://x.com/umesh_ai))
-[Source Link](https://x.com/umesh_ai/status/1915696926596415492)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-Y5nxZct49r5jpDJgeziht.png?v=1" width="450" alt="Nano Banana Pro Output for Case 6">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/umesh_ai">@umesh_ai</a></sub>
-
-**Prompt**
-```
-A close-up shot of a hand holding a business card designed to look like a JSON file opened in VS Code. The card shows code formatted in realistic syntax-highlighted JSON code. The window includes typical toolbar icons and a title bar labeled Business Card.json, styled exactly like the interface of VS Code. Background is slightly blurred, keeping the focus on the card.
-The card displays the following code formatted in JSON:
-{
-  "name": "Jamez Bondos",
-  "title": "Your Title",
-  "email": "your@email.com",
-  "link": "yourwebsite"
-}
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-7"></a>
-### Case 7: Lego Cityscape (by [@dotey](https://x.com/dotey))
-[Source Link](https://x.com/dotey/status/1917713810346872902)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-retry-Nc-vAhaIHqHisicziRUQ5.png?v=1" width="450" alt="Nano Banana Pro Output for Case 7">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/dotey">@dotey</a></sub>
-
-**Prompt**
-```
-Create a highly detailed and vividly colored LEGO-style scene of the Shanghai Bund. The foreground features the iconic historical buildings of the Bund, meticulously recreated with LEGO bricks in Western and neoclassical architectural styles. In the background lies the spectacular Huangpu River, assembled with translucent blue LEGO bricks. Across the river stands the skyline of Lujiazui in Pudong, including the Oriental Pearl Tower and Shanghai Tower — all rendered as vibrant, lifelike LEGO skyscrapers. The sky is LEGO’s signature bright blue, creating a visual full of energy and modernity.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-8"></a>
-### Case 8: Creative Logo Shaped Bookshelf (by [@umesh_ai](https://x.com/umesh_ai))
-[Source Link](https://x.com/umesh_ai/status/1916517976414495161)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-h3g_ajtU5hs70Yy0tskiN.png?v=1" width="450" alt="Nano Banana Pro Output for Case 8">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/umesh_ai">@umesh_ai</a></sub>
-
-**Prompt**
-```
-Create a photograph of a modern bookshelf inspired by the shape of [LOGO]. The bookshelf features flowing, interconnected curves forming multiple sections of varying sizes. It is made of sleek matte black metal with wooden shelves inside the loops. Soft, warm LED lighting outlines the inner curves. The bookshelf is mounted on a neutral-toned wall and holds a mix of colorful books, small plants, and minimalistic art pieces. The overall vibe is creative, elegant, and slightly futuristic.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-9"></a>
-### Case 9: Original Pokemon Creation (by [@Anima_Labs](https://x.com/Anima_Labs))
-[Source Link](https://x.com/Anima_Labs/status/1915044265895379166)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-0fyYo7d2Vc3ufHnXU0fxh.png?v=1" width="450" alt="Nano Banana Pro Output for Case 9">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/Anima_Labs">@Anima_Labs</a></sub>
-
-**Prompt**
-```
-Create an original creature inspired by this object (photo provided). The creature should look like it belongs in a fantasy monster-catching universe, with a cute or cool design influenced by retro Japanese RPG monster art. The image must include a full-body view of the creature, an invented name for the creature, and its elemental type (e.g., Fire, Water, Metal, Nature, Electric…). The illustration should look like it comes from a fantasy creature encyclopedia, with clean lines, soft shadows, and an expressive, character-driven design.
-```
-**Reference Image Required:** Needs a photo of an object, food, etc., as inspiration.
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-10"></a>
-### Case 10: Futuristic Logo Trading Card (by [@hewarsaber](https://x.com/hewarsaber))
-[Source Link](https://x.com/hewarsaber/status/1912933875166171515)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-QGCQ1jjuNoKYgwFDo61qW.png?v=1" width="450" alt="Nano Banana Pro Output for Case 10">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/hewarsaber">@hewarsaber</a></sub>
-
-**Prompt**
-```
-A futuristic trading card with a dark, moody neon aesthetic. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}. The background is a dark carbon fiber texture. Subtle light rays stream down diagonally from the top. Below the card, include realistic floor reflections. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography has a faint glow. All elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card. Use {{logo: "Tesla logo"}}, {{ticker: "TSLA"}}, {{company_name: "Tesla Inc."}}, {{card_number: "#0006"}}, {{revenue: "$96.8B"}}, {{year: "2025"}}, {{colors: ["red", "white"]}}.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-11"></a>
-### Case 11: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
-[Source Link](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-NwKHSkobGZuQuaTfzYnkk.png?v=1" width="450" alt="Nano Banana Pro Output for Case 11">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://github.com/f-is-h">@f-is-h</a></sub>
-
-**Prompt**
-```
-A steampunk-style mechanical fish with a brass body and clearly visible gear mechanisms. Its mechanical teeth can be slightly seen. The tail fin has a metal wire mesh structure, while other fins are made of semi-transparent amber-colored glass. The eyes are multi-faceted rubies. The fish has "f-is-h" text clearly visible on its body. The image is square, showing the entire fish in the center, with its head pointing to the right. The background has subtle steampunk-style gear patterns. This is a high-definition image with extremely rich details and unique texture and aesthetics.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-12"></a>
-### Case 12: Fake Tweet Screenshot (by [@egeberkina](https://x.com/egeberkina))
-[Source Link](https://x.com/egeberkina/status/1914299716394778713)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-retry-5NAPAcMNSLl7j8PuX5mnt.png?v=1" width="450" alt="Nano Banana Pro Output for Case 12">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/egeberkina">@egeberkina</a></sub>
-
-**Prompt**
-```
-a hyper realistic twitter post by Albert Einstein right after finishing the theory of relativity. include a selfie where you can clearly see scribbled equations and a chalkboard in the background. have it visible that the post was liked by Nikola Tesla
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-13"></a>
-### Case 13: Colorful Vector Art Poster (by [@michaelrabone](https://x.com/michaelrabone))
-[Source Link](https://x.com/michaelrabone/status/1913865394139316291)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-retry-4z8yN-EVHRBthTnpCB8Ka.png?v=1" width="450" alt="Nano Banana Pro Output for Case 13">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/michaelrabone">@michaelrabone</a></sub>
-
-**Prompt**
-```
-Barcelona Spain colourful summer vector art poster with big "BARCELONA" title at the top and smaller "SPAIN" title under
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-14"></a>
-### Case 14: 8-Bit Pixel Icon (by [@egeberkina](https://x.com/egeberkina))
-[Source Link](https://x.com/egeberkina/status/1913654508330058064)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-H0E8EqQ10jrbe0d8q7137.png?v=1" width="450" alt="Nano Banana Pro Output for Case 14">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/egeberkina">@egeberkina</a></sub>
-
-**Prompt**
-```
-Create a minimalist 8-bit pixel logo of [🍔], centered on a pure white background. Use a limited retro color palette with pixelated detailing, sharp edges, and clean blocky forms. The logo should be simple, iconic, and clearly recognizable in pixel art style — inspired by classic arcade game aesthetics.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-15"></a>
-### Case 15: Paper Craft Style Emoji Icon (by [@egeberkina](https://x.com/egeberkina))
-[Source Link](https://x.com/egeberkina/status/1912521263085482464)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-retry-SoZP2Zw1HCRXGONFdZSDs.png?v=1" width="450" alt="Nano Banana Pro Output for Case 15">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/egeberkina">@egeberkina</a></sub>
-
-**Prompt**
-```
-A paper craft-style "🔥" floating on a pure white background. The emoji is handcrafted from colorful cut paper with visible textures, creases, and layered shapes. It casts a soft drop shadow beneath, giving a sense of lightness and depth. The design is minimal, playful, and clean — centered in the frame with lots of negative space. Use soft studio lighting to highlight the paper texture and edges.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-16"></a>
-### Case 16: ESC Keycap Miniature Diorama (by [@egeberkina](https://x.com/egeberkina))
-[Source Link](https://x.com/egeberkina/status/1911368319212408926)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-OdsAa2Rkg3eU7abakGfNZ.png?v=1" width="450" alt="Nano Banana Pro Output for Case 16">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/egeberkina">@egeberkina</a></sub>
-
-**Prompt**
-```
-A hyper-realistic isometric 3D render of a miniature computer setup inside a translucent mechanical keyboard keycap, specifically placed on the ESC key of a real matte-finished mechanical keyboard. Inside the keycap, a tiny figure sits in a modern ergonomic chair, wearing a cozy textured hoodie, working at a glowing ultra-realistic computer screen. The environment is packed with lifelike miniature tech accessories. The base of the scene is made of soil, rocks, and moss. The lighting inside the cap mimics natural morning sun, casting soft shadows and warm tones. The word “ESC” is subtly etched onto the top of the translucent keycap with a faint frosted glass effect. Shot as if taken with a high-end mobile phone camera, with shallow depth of field.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-17"></a>
-### Case 17: Minimalist 3D Illustration (by [@dotey](https://x.com/dotey))
-[Source Link](https://x.com/dotey/status/1907131027253772399)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-8RSXe2tZY5rBLLfYyVpCf.png?v=1" width="450" alt="Nano Banana Pro Output for Case 17">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/dotey">@dotey</a></sub>
-
-**Prompt**
-```
-Draw a Toilet
-
-## 🎨 Art Style: Minimalist 3D Illustration
-- **Shape:** Rounded edges and smooth, soft forms.
-- **Colors:** Primary palette of soft beige, light gray, warm orange.
-- **Lighting:** Soft, diffuse lighting from above. Subtle and diffused shadows.
-- **Materials:** Matte and smooth surface texture, no gloss.
-- **Composition:** Single, centered object with generous negative space. Flat color background.
-- **Rendering:** 3D rendering in a simplified low-poly style.
-## 🎯 Style Goal
-> Create a clean and aesthetically pleasing visual that emphasizes simplicity, approachability, and modernity.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-18"></a>
-### Case 18: Funko Pop Figure Creation (by [@dotey](https://x.com/dotey))
-[Source Link](https://x.com/dotey/status/1909047283485671924)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-retry-jCu4umK_f5nXmIbJCXh8U.png?v=1" width="450" alt="Nano Banana Pro Output for Case 18">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/dotey">@dotey</a></sub>
-
-**Prompt**
-```
-Transform the person in the photo into the style of a Funko Pop figure box, presented in isometric view. The packaging is labeled with the title “JAMES BOND.” Inside the box, display a chibi-style figure based on the person in the photo, along with their essential accessories. Next to the box, show a realistic rendering of the actual figure outside the packaging, with detailed textures and lighting to achieve a lifelike product display.
-```
-**Reference Image Required:** A photo of a person.
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-19"></a>
-### Case 19: PS2 Game Cover (by [@dotey](https://x.com/dotey))
-[Source Link](https://x.com/dotey/status/1904978767090524372)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-qVK6fm-fP8a4-grand.jpeg" width="450" alt="Nano Banana Pro Output for Case 19">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/dotey">@dotey</a></sub>
-
-**Prompt**
-```
-Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA based in the Shrek Universe.
-```
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="case-20"></a>
-### Case 20: 3D Polaroid Breakout Effect (by [@dotey](https://x.com/dotey))
-[Source Link](https://x.com/dotey/status/1908238003169903060)
-
-<img src="https://bibigpt-apps.chatvid.ai/chatimg/gemini-_crFMo57tTJ1ttPkPCte1.png?v=1" width="450" alt="Nano Banana Pro Output for Case 20">
-<sub>Image generated with Nano Banana Pro • Prompt by <a href="https://x.com/dotey">@dotey</a></sub>
-
-**Prompt**
-```
-Convert the character in the scene into a 3D chibi-style figure, placed inside a Polaroid photo. The photo paper is being held by a human hand. The character is stepping out of the Polaroid frame, creating a visual effect of breaking through the two-dimensional photo border and entering the real-world 3D space.
-```
-**Reference Image Required:** A photo of a person.
-
----
-[⬆️ Back to Cases Directory](#cases-toc)
-
-<a id="acknowledgements"></a>
-## 🙏 Acknowledgements
-
-This collection would not be possible without the incredible creativity and generosity of the AI community. We extend our sincere gratitude to all the original prompt creators for sharing their work.
-
-If your work is included here and you wish to change the attribution or have it removed, please open an issue or contact us. ✉️
-
-[⬆️ Back to Top](#readme-top)
-
-<a id="star-history"></a>
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ZeroLu/awesome-Nano Banana Pro&type=Date)](https://www.star-history.com/#ZeroLu/awesome-Nano Banana Pro&Date)
-
-[⬆️ Back to Top](#readme-top)
