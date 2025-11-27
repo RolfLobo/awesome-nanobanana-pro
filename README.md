@@ -5,7 +5,9 @@
 
 > A curated collection of the **best Nano Banana prompts**, image generation styles, and resources for advanced AI visual experiments.
 
-This repository focuses on **high-fidelity image prompts** sourced from X (Twitter), WeChat, Replicate, and top prompt engineers. Whether you are looking for **photorealistic portraits**, **stylized aesthetics**, or complex creative experiments, you will find the most effective inputs here to unlock the full potential of the model.
+This repository focuses on **high-fidelity image prompts** sourced from X (Twitter), WeChat, Replicate, and top prompt engineers. Whether you are looking for **photorealistic portraits**, **stylized aesthetics**, or complex creative experiments, you will find the most effective inputs here to unlock the full potential of the model. 
+
+Similar repo: [Awesome Gemini3](https://github.com/ZeroLu/awesome-gemini-ai/)
 
 ### Consider subscribing to [this free newsletter](https://zerolu.substack.com/p/hello-there) if you want more high quality content like this.
 
