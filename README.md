@@ -18,7 +18,7 @@ Consider subscribing to [this free newsletter](https://zerolu.substack.com/p/hel
 [<img width="600" height="265" alt="image" src="https://github.com/user-attachments/assets/b087445c-d3ad-4152-8e28-33a5ca49d4b5" />](https://thesorawatermarkremover.com)
 
 
-### Sponsor Two:
+### Sponsor Two: Polymeric Cloud Limited
 <table>
 <tr>
 <td width="60%" valign="top">
